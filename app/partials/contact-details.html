@@ -1,0 +1,54 @@
+<div class="panel panel-default" style="margin: auto; width:60%">
+    <div class="panel-heading"><h4>Contact Details</h4></div>
+    <div class="panel-body">
+        <div ng-hide="loaded">
+            <span>Loading contact details...</span>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active"
+                     role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 100%">
+                </div>
+            </div>
+        </div>
+
+        <table class="table table-bordered" ng-show="loaded">
+            <colgroup>
+                <col style="background-color:#F8F8F8">
+                <col>
+            </colgroup>
+            <tbody>
+            <tr>
+                <td class="text-right"><strong>Name : </strong></td>
+                <td>{{contact.name}}</td>
+            </tr>
+            <tr>
+                <td class="text-right"><strong>Number : </strong></td>
+                <td>{{contact.number}}</td>
+            </tr>
+            <tr>
+                <td class="text-right"><strong>Created : </strong></td>
+                <td>{{contact.created}}</td>
+            </tr>
+            <tr>
+                <td class="text-right"><strong>Modified : </strong></td>
+                <td>{{contact.modified}}</td>
+            </tr>
+            <tr>
+                <td class="text-right"><strong>Screened : </strong></td>
+                <td>{{contact.screened}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="panel-footer">
+        <div>
+            <button type="button" data-toggle="tooltip"
+                    data-placement="top" title="Send message"
+                    class="btn btn-primary"
+                    ng-click="sendMessage(contactId)">Send Message
+            </button>
+        </div>
+    </div>
+</div>

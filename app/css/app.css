@@ -1,0 +1,226 @@
+/* https://dl.dropboxusercontent.com/u/5194280/CDN/bootstrap-cerulean-flatly-slate-3_2_0.css */
+
+/* For fixed header */
+body {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+/* For fixed header */
+
+/* The next style is not needed for this theme to function. */
+
+/* Remove outlines from links */
+a:focus {
+    outline: none ;
+}
+/* Remove outlines from links */
+#banner {
+    border-bottom: none
+}
+.page-header h1 {
+    font-size: 4em
+}
+.bs-docs-section {
+    margin-top: 8em
+}
+.bs-component {
+    position: relative
+}
+.bs-component .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 1;
+    display: block
+}
+.bs-component .modal-dialog {
+    width: 90%
+}
+.bs-component .popover {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    margin: 20px
+}
+#source-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-weight: bold
+}
+.progress {
+    margin-bottom: 10px
+}
+footer {
+    margin: 5em 0
+}
+footer li {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em
+}
+footer p {
+    clear: left;
+    margin-bottom: 0
+}
+.splash {
+    padding: 4em 0 2em;
+    background-color: #1c2533;
+    background: -webkit-linear-gradient(70deg, #080f1f 30%, #2b4b5a 87%, #435e67 100%);
+    background: -o-linear-gradient(70deg, #080f1f 30%, #2b4b5a 87%, #435e67 100%);
+    background: -ms-linear-gradient(70deg, #080f1f 30%, #2b4b5a 87%, #435e67 100%);
+    background: -moz-linear-gradient(70deg, #080f1f 30%, #2b4b5a 87%, #435e67 100%);
+    background: linear-gradient(20deg, #080f1f 30%, #2b4b5a 87%, #435e67 100%);
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center
+}
+.splash h1 {
+    font-size: 4em
+}
+.splash #social {
+    margin: 2em 0
+}
+.splash .alert {
+    margin: 2em 0
+}
+.splash .bsa {
+    max-width: 350px;
+    margin: 0 auto;
+    background: none
+}
+.splash .bsa .one .bsa_it_ad {
+    border: 1px solid #3e4653 !important;
+    border-color: rgba(255, 255, 255, 0.2) !important
+}
+.splash .bsa a {
+    color: #fff
+}
+.section-tout {
+    padding: 4em 0 3em;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #eaf1f1
+}
+.section-tout .fa {
+    margin-right: .5em
+}
+.section-tout p {
+    margin-bottom: 3em
+}
+.section-preview {
+    padding: 4em 0 4em
+}
+.section-preview .preview {
+    margin-bottom: 4em;
+    background-color: #eaf1f1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px
+}
+.section-preview .preview .image {
+    padding: 5px
+}
+.section-preview .preview .image img {
+    border: 1px solid rgba(0, 0, 0, 0.1)
+}
+.section-preview .preview .options {
+    text-align: center;
+    padding: 0 2em 2em
+}
+.section-preview .preview .options p {
+    margin-bottom: 2em
+}
+.section-preview .dropdown-menu {
+    text-align: left
+}
+.section-preview .lead {
+    margin-bottom: 2em
+}
+@media (max-width:767px) {
+    .section-preview .image img {
+        width: 100%
+    }
+}
+.sponsor img {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px
+}
+.sponsor a:hover {
+    text-decoration: none
+}
+.bsa {
+    padding: 0
+}
+.bsa .one .bsa_it_ad {
+    border: none !important;
+    background-color: transparent !important
+}
+.bsa .one .bsa_it_ad .bsa_it_t, .bsa .one .bsa_it_ad .bsa_it_d {
+    color: inherit !important
+}
+.bsa .one .bsa_it_ad .bsa_it_i {
+    margin-bottom: 0 !important
+}
+.bsa .one .bsa_it_p {
+    display: none
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}

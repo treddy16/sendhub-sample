@@ -1,0 +1,13 @@
+{
+  "name": "sendhub-app",
+  "version": "0.0.1",
+  "description": "Sample SendHub App",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "expect.js": "^0.3.1",
+    "express": "^4.9.7",
+    "mocha": "^1.21.5",
+    "node-rest-client": "^1.0.3",
+    "superagent": "^0.20.0"
+  }
+}
